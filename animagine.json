@@ -1,0 +1,54 @@
+{
+    "default_model": "animagine-xl-3.1.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_vae": "sdxl_vae.safetensors",
+    "default_loras": [
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 6.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "euler_ancestral",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "",
+    "default_prompt_negative": "",
+    "default_styles": [
+    ],
+    "default_aspect_ratio": "1024*1024",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "animagine-xl-3.1.safetensors": "https://huggingface.co/cagliostrolab/animagine-xl-3.1/resolve/main/animagine-xl-3.1.safetensors"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {},
+    "vae_downloads": {
+        "sdxl_vae.safetensors": "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
+    },
+    "previous_default_models": [
+    ]
+}
