@@ -24,19 +24,24 @@
 
 Fooocus起動時にプリセットを指定するには `--preset` オプションの引数にプリセット名を指定してください。
 
-以下はプリセット animagine を使用する例です。
+以下はプリセット animagine を使うときの起動方法の例です。
 
-```例：Mac
-python entry_with_update.py --preset animagine
-```
-
-```例：Google Colab
-!python entry_with_update.py --share --always-high-vram --preset animagine
-```
-Windows 版は `run_animagine.bat` のような.batファイルを作成してください。
+### Windows
+Windows 版は `run_animagine.bat` のような .bat ファイルを作成してください。
 
 ```例：Windows（run_animagine.bat）
 .\python_embeded\python.exe -s Fooocus\entry_with_update.py --preset animagine
 pause
+```
+
+### Mac
+
+```
+python entry_with_update.py --preset animagine
+```
+
+### Google Colab
+```
+!python entry_with_update.py --share --always-high-vram --preset animagine
 ```
 
