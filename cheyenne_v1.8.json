@@ -1,5 +1,5 @@
 {
-    "default_model": "CHEYENNE_v20.safetensors",
+    "default_model": "CHEYENNE_v18.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_vae": "sdxl_vae.safetensors",
@@ -42,12 +42,12 @@
     "default_aspect_ratio": "1024*1024",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "CHEYENNE_v20.safetensors": "https://civitai.com/api/download/models/1055511"
+        "CHEYENNE_v18.safetensors": "https://civitai.com/api/download/models/656688"
     },
     "embeddings_downloads": {},
     "lora_downloads": {},
     "vae_downloads": {
-        "sdxl_vae.safetensors": "https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors?download=true"
+        "sdxl_vae.safetensors": "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
     },
     "previous_default_models": [
     ]
